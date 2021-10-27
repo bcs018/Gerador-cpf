@@ -1,2 +1,2 @@
 # Gerador-cpf
- Programa simples para gerar CPFs alieatórios válidos
+ Programa simples para gerar CPFs aleatórios válidos
