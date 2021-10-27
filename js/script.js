@@ -4,7 +4,11 @@ $(function(){
         qtd = $('input[name=qtd]').val();
 
         if(qtd == ''){
-            $('#message').html('Quantidade em branco');
+            $('#message').html("<br><div class='alert alert-danger' role='alert'>"+
+                                    "Quantidade não preenchido!"+
+                                "</div>");
+            $('#result').html('');
+            
             return;
         }
 
@@ -17,8 +21,22 @@ $(function(){
                 $('#loading').html('aguarde...');
             },
             success:function(r){
-                $('#message').html(r.cpf);
+                html = '<table class="table table-striped">'            +
+                            '<thead>'                                   +
+                                '<tr>'                                  +
+                                    '<th scope="col">Números CPFs</th>' +
+                                '</tr>'                                 +
+                            '</thead>'                                  +
+                            '<tbody>'                                   +
+                                '<tr>'                                  +
+                                    r.cpf                               +
+                                '</tr>'                                 +
+                            '</tbody>'                                  +
+                        '</table>';
+
+                $('#result').html(html);
                 $('#loading').html('');
+                $('#message').html('');
             }
         })
 

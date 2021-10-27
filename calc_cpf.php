@@ -37,7 +37,7 @@ while($i < $qtd){
 
     if(calc_cpf($new_cpf)){
         $i++;
-        $html .= $new_cpf.'<br>';
+        $html .= '<tr><td>'.$new_cpf.'</td></tr>';
     }
 }
 
