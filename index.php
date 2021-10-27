@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador aleatório de CPFs</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#ff99ee;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,6 +33,8 @@
     <div class="container">
         <div class="row">
             <div class="col">
+                <h2>Gere ilimitados números de CPFs válidos aleatórios</h2>
+                <div style="padding: 2%;"></div>
 
                 <div class="form-group">
                     <label for="exampleInputEmail1"><b>Informe a quantidade de CPFs a ser gerado</b></label>
@@ -53,6 +56,14 @@
             </div>
         </div>
     </div>
+
+    <!-- <footer class="footer">
+        Footer
+    </footer> -->
+    <!-- <blockquote class="blockquote">
+  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+</blockquote> -->
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
