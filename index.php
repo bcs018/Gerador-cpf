@@ -50,18 +50,6 @@
         <div class="row justify-content-md-center">
             <div class="col-md-5">
                 <div id="result"></div>
-                <!-- <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th scope="col">Números CPFs</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table> -->
             </div>
         </div>
     </div>
