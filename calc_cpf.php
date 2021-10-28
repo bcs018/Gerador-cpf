@@ -31,6 +31,7 @@ $qtd = addslashes($_POST['qtd']);
 
 $html = '';
 $i = 0;
+$err = 0;
 
 while($i < $qtd){
     $new_cpf = rand(11111111111,99999999999);
@@ -38,9 +39,11 @@ while($i < $qtd){
     if(calc_cpf($new_cpf)){
         $i++;
         $html .= '<tr><td>'.$new_cpf.'</td></tr>';
+    }else{
+        $err++;
     }
 }
 
-echo json_encode(['cpf'=>$html]);
+echo json_encode(['cpf'=>$html, 'qtd_ger'=>number_format($err+intval($qtd),0,'','.')]);
 exit;
 

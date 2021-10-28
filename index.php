@@ -14,17 +14,11 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">Marca escondida</a>
+            <a class="navbar-brand" href="/">Gerador de CPFs</a>
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
                     <a class="nav-link" href="/">Home <span class="sr-only">(Página atual)</span></a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Desativado</a>
-                </li> -->
             </ul>
             
         </div>
@@ -49,7 +43,13 @@
                 
             </div>
         </div>
-        <br><br><br>
+
+        <br><br>
+
+        <div id="curiosidade"></div>
+
+        <br><br>
+
         <div class="row justify-content-md-center">
             <div class="col-md-5">
                 <div id="result"></div>
@@ -57,13 +57,20 @@
         </div>
     </div>
 
-    <!-- <footer class="footer">
-        Footer
-    </footer> -->
-    <!-- <blockquote class="blockquote">
-  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-</blockquote> -->
+    <footer class="footer">
+        <div class="container">
+            <hr><br>
+            <div class="row">
+                <div class="col-sm">
+                    © <?php echo date('Y'); ?> Gerador de CPFs.
+                </div>
+               
+                <div class="col-auto mr-auto">
+                    Desenvolvido por:<a target="_blank" href="https://bcsdev.ga" id="bcs"> <strong>BCS Dev</strong></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
