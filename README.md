@@ -1,6 +1,6 @@
 # Gerador-cpf
  Programa simples para gerar CPFs aleatórios válidos
- <br>
+ <br><br>
  Este simplesmente gera números aleatórios de 11 digitos, e testa pata ver se aquele número é um CPF válido.
  Este processo é executado até que ache o número de CPFs em que o usuário digitou.
  <br><br>
