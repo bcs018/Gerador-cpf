@@ -7,6 +7,7 @@
     <title>Gerador aleatório de CPFs</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#ff99ee;">
